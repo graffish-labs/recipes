@@ -1,0 +1,24 @@
+{
+    "aliases": [],
+    "recipes": [],
+    "recipe-conflicts": [],
+    "versions": {
+        "lts": "6.4",
+        "stable": "7.2",
+        "next": "7.3",
+        "previous": "7.1",
+        "dev": "7.3",
+        "dev-name": "7.3",
+        "splits": []
+    },
+    "branch": "main",
+    "is_contrib": false,
+    "_links": {
+        "repository": "github.com/graffish-labs/recipes",
+        "origin_template": "{package}:{version}@github.com/graffish-labs/recipes:main",
+        "recipe_template": "https://raw.githubusercontent.com/graffish-labs/recipes/flex/main/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/graffish-labs/recipes/flex/main/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
+    }
+}
