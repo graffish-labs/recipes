@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "GraffishLabs\\AuditLogsLib\\GraffishLabsAuditLogsLibBundle": ["all"]
-    },
-    "env": {
-        "AUDIT_API_KEY": "your-api-key-here"
-    }
-}
