@@ -1,0 +1,5 @@
+audit_logs:
+    enabled: true
+    client:
+        base_uri: '%env(AUDIT_LOGS_API_BASE_URL)%'
+        api_key: '%env(AUDIT_LOGS_API_KEY)%'
