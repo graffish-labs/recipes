@@ -1,4 +1,4 @@
-audit_logs:
+graffish_labs_audit_log:
     enabled: true
     client:
         base_uri: '%env(AUDIT_LOGS_API_BASE_URL)%'
