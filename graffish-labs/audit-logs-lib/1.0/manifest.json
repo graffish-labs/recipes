@@ -4,5 +4,6 @@
     },
     "env": {
         "AUDIT_API_KEY": "your-api-key-here"
-    }
+    },
+    "aliases": [ "audit-logs" ]
 }
