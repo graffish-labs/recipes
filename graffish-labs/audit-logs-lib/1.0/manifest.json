@@ -6,7 +6,7 @@
         "config/": "%CONFIG_DIR%/"
     },
     "env": {
-        "AUDIT_API_KEY": "your-api-key-here",
+        "AUDIT_LOGS_API_KEY": "your-api-key-here",
         "AUDIT_LOGS_API_BASE_URL": "https://audit-logs.graffish.com/api/v1"
     },
     "aliases": [ "audit-logs" ]
