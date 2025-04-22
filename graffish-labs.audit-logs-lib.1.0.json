@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "graffish-labs/audit-logs": {
+        "graffish-labs/audit-logs-lib": {
             "manifest": {
                 "bundles": {
                     "GraffishLabs\\AuditLogsLib\\GraffishLabsAuditLogsLibBundle": [

@@ -4,4 +4,4 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 
 | Package | Latest Recipe |
 | --- | --- |
-| [graffish-labs/audit-logs](https://packagist.org/packages/graffish-labs/audit-logs) | [1.0](graffish-labs/audit-logs/1.0) |
+| [graffish-labs/audit-logs-lib](https://packagist.org/packages/graffish-labs/audit-logs-lib) | [1.0](graffish-labs/audit-logs-lib/1.0) |

@@ -1,7 +1,7 @@
 {
     "aliases": [],
     "recipes": {
-        "graffish-labs/audit-logs": [
+        "graffish-labs/audit-logs-lib": [
             "1.0"
         ]
     },
