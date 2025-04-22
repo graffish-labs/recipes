@@ -1,5 +1,8 @@
 {
-    "aliases": [],
+    "aliases": {
+        "audit-logs": "graffish-labs/audit-logs-lib",
+        "auditlogs": "graffish-labs/audit-logs-lib"
+    },
     "recipes": {
         "graffish-labs/audit-logs-lib": [
             "1.0"
