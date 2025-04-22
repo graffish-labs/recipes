@@ -1,0 +1,24 @@
+{
+    "manifests": {
+        "graffish-labs/audit-logs": {
+            "manifest": {
+                "bundles": {
+                    "GraffishLabs\\AuditLogsLib\\GraffishLabsAuditLogsLibBundle": [
+                        "all"
+                    ]
+                },
+                "env": {
+                    "AUDIT_API_KEY": "your-api-key-here"
+                },
+                "post-install-output": [
+                    "  * Modify your DATABASE_URL config in <fg=green>.env</>",
+                    "",
+                    "  * Configure the <fg=green>driver</> (postgresql) and",
+                    "    <fg=green>server_version</> (16) in <fg=green>config/packages/doctrine.yaml</>"
+                ]
+            },
+            "files": [],
+            "ref": "4b571c99e2d8cd3bdbd4c0177de1cd7252881871"
+        }
+    }
+}
