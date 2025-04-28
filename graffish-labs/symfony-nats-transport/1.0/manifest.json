@@ -1,6 +1,6 @@
 {
     "bundles": {
-        "GraffishLabs\\SymfonyNatsTransport\\SymfonyNatsTransportBundle": ["all"]
+        "GraffishLabs\\SymfonyNatsTransport\\GraffishLabsSymfonyNatsTransportBundle": ["all"]
     },
     "copy-from-recipe": {
         "config/": "%CONFIG_DIR%/"
