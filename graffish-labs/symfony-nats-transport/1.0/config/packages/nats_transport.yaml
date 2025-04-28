@@ -1,0 +1,7 @@
+graffish_labs_symfony_nats_transport:
+    enabled: true
+    GraffishLabs\SymfonyNatsTransport\Transport\NatsTransportFactory:
+        tags: [messenger.transport_factory]
+
+    GraffishLabs\SymfonyNatsTransport\Transport\NatsTransport:
+        tags: [messenger.transport]
