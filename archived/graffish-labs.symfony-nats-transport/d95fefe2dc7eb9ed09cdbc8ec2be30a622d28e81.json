@@ -1,0 +1,38 @@
+{
+    "manifests": {
+        "graffish-labs/symfony-nats-transport": {
+            "manifest": {
+                "bundles": {
+                    "GraffishLabs\\SymfonyNatsTransport\\SymfonyNatsTransportBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "env": {
+                    "#1": "MESSENGER_TRANSPORT_DSN=nats-jetstream://user:password@host:post/streamName"
+                },
+                "post-install-output": [
+                    "  * Modify the NATS transport dns config in <fg=green>.env</> under <fg=green>MESSENGER_TRANSPORT_DSN</>",
+                    "  "
+                ]
+            },
+            "files": {
+                "config/packages/nats_transport.yaml": {
+                    "contents": [
+                        "graffish_labs_symfony_nats_transport:",
+                        "    enabled: true",
+                        "    GraffishLabs\\SymfonyNatsTransport\\Transport\\NatsTransportFactory:",
+                        "        tags: [messenger.transport_factory]",
+                        "",
+                        "    GraffishLabs\\SymfonyNatsTransport\\Transport\\NatsTransport:",
+                        "        tags: [messenger.transport]"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "d95fefe2dc7eb9ed09cdbc8ec2be30a622d28e81"
+        }
+    }
+}

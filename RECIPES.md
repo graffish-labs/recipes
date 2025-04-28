@@ -5,3 +5,4 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 | Package | Latest Recipe | Aliases |
 | --- | --- | --- |
 | [graffish-labs/audit-logs-lib](https://packagist.org/packages/graffish-labs/audit-logs-lib) | [1.0](graffish-labs/audit-logs-lib/1.0) | `audit-logs`, `auditlogs` |
+| [graffish-labs/symfony-nats-transport](https://packagist.org/packages/graffish-labs/symfony-nats-transport) | [1.0](graffish-labs/symfony-nats-transport/1.0) |  |
