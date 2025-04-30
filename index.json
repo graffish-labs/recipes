@@ -6,9 +6,6 @@
     "recipes": {
         "graffish-labs/audit-logs-lib": [
             "1.0"
-        ],
-        "graffish-labs/symfony-nats-transport": [
-            "1.0"
         ]
     },
     "recipe-conflicts": [],
