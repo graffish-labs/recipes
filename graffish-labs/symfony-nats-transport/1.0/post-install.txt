@@ -1,2 +1,0 @@
-  * Modify the NATS transport dns config in <fg=green>.env</> under <fg=green>MESSENGER_TRANSPORT_DSN</>
-  

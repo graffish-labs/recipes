@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "GraffishLabs\\SymfonyNatsTransport\\GraffishLabsSymfonyNatsTransportBundle": ["all"]
-    },
-    "env": {
-        "#1": "MESSENGER_TRANSPORT_DSN=nats-jetstream://user:password@host:post/streamName"
-    }
-}
